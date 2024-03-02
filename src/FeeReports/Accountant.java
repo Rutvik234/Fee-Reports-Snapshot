@@ -2,7 +2,7 @@ package FeeReports;
 
 class Accountant {
 	private int id;
-	private String fiestName;
+	private String firstName;
 	private String lastName;
 	private String password;
 	private String email;
@@ -11,7 +11,7 @@ class Accountant {
 	public Accountant(int id, String fiestName, String lastName, String password, String email, Long contactNumber) {
 		super();
 		this.id = id;
-		this.fiestName = fiestName;
+		this.firstName = fiestName;
 		this.lastName = lastName;
 		this.password = password;
 		this.email = email;
@@ -26,12 +26,12 @@ class Accountant {
 		this.id = id;
 	}
 
-	public String getFiestName() {
-		return fiestName;
+	public String getFirstName() {
+		return firstName;
 	}
 
-	public void setFiestName(String fiestName) {
-		this.fiestName = fiestName;
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
 	}
 
 	public String getLastName() {
@@ -68,7 +68,7 @@ class Accountant {
 
 	@Override
 	public String toString() {
-		return "Accountant [id=" + id + ", fiestName=" + fiestName + ", lastName=" + lastName + ", password=" + password
+		return "Accountant [id=" + id + ", fiestName=" + firstName + ", lastName=" + lastName + ", password=" + password
 				+ ", email=" + email + ", contactNumber=" + contactNumber + "]";
 	}
 }
