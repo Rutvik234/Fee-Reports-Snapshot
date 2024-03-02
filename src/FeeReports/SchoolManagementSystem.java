@@ -4,13 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class SchoolManagementSystem extends Student {
-
-	public SchoolManagementSystem(int id, String firstName, String lastName, String email, String course, double fee,
-			double paid, double due, String address, String city, String state, String country, long contactNumber) {
-		super(id, firstName, lastName, email, course, fee, paid, due, address, city, state, country, contactNumber);
-	}
-
+public class SchoolManagementSystem {
+	
 	private static List<Accountant> accountants = new ArrayList<>();
 	private static List<Student> students = new ArrayList<>();
 	private static int accountantIdCounter = 1; // To generate unique accountant IDs
