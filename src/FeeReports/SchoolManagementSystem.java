@@ -359,8 +359,4 @@ public class SchoolManagementSystem extends Student {
 
 	}
 
-// Accountant class
-
-// Student class
-
 }
