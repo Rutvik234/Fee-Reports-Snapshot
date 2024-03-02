@@ -309,7 +309,7 @@ public class SchoolManagementSystem extends Student {
 			for (Accountant accountant : accountants) {
 				if ((accountant.getEmail()).equals(email) && (accountant.getPassword()).equals(password)) {
 					loggedInAccountant = accountant;
-					System.out.println("Login successful! Welcome, " + loggedInAccountant.getFiestName() + ".");
+					System.out.println("Login successful! Welcome, " + loggedInAccountant.getFirstName() + ".");
 					listForAllStudent(scanner);
 				} else {
 					System.err.println("Invalid email or password. Please try again.");
