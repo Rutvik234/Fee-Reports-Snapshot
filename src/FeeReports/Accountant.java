@@ -8,10 +8,10 @@ class Accountant {
 	private String email;
 	private Long contactNumber;
 
-	public Accountant(int id, String fiestName, String lastName, String password, String email, Long contactNumber) {
+	public Accountant(int id, String firstName, String lastName, String password, String email, Long contactNumber) {
 		super();
 		this.id = id;
-		this.firstName = fiestName;
+		this.firstName = firstName;
 		this.lastName = lastName;
 		this.password = password;
 		this.email = email;
